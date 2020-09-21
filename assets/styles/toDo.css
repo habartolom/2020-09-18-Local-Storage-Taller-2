@@ -1,0 +1,28 @@
+.aside{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.input{
+    min-height: 7em;
+    font-size: 1.2em;
+    height: 7em;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.key{
+    border-radius: 1em;
+    background-color: #292b2c;
+    color: #f7f7f7;   
+    padding: .3em;
+}
+
+.singleKey{
+    width: 8.3%;
+}
+
+.doubleKey{
+    width: 16.6%;
+} 
