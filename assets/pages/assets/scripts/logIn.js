@@ -32,7 +32,7 @@ const inputsOK = ()=>{
     
     if(inputPassword.value == ''){
         rightInfo = false;
-        passHelp.innerText = 'Ingrese un número de celular válido';
+        passHelp.innerText = 'Ingrese su contraseña';
     }
     
     return rightInfo;
