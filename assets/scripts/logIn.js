@@ -48,13 +48,22 @@ const validateInfo = ()=>{
         password: password
     }
 
+    
     if(infoOK(logUser)){
+        cleanInputs();
         redirect();
     }
     else{
         alert('Los datos ingresados no son correctos. Pruebe nuevamente');
     }
 }
+
+/* Clean Inputs */
+const cleanInputs = ()=>{
+    inputEmail.value = '';
+    inputPassword.value = '';
+};
+
 
 const infoOK = (logUser)=>{
     const users = JSON.parse(localStorage.getItem('users'));
