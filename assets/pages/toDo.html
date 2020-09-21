@@ -12,7 +12,17 @@
 
 <body>
     <div class="container-full d-flex">
-        <aside class="aside col-3 bg-dark">Hola</aside>
+        <aside class="aside col-3 bg-dark">
+            <div class="userInfo d-flex flex-column align-items-center justify-content-center h-100">
+                <img class='userIcon m-4' src="../images/user.png" alt="userIcon">
+                <div class='d-flex flex-column align-items-center m-4'>
+                    <h4 class="text-white">Bienvenido</h4>
+                    <div><span class='userName' id='userName'></span></div>
+                </div>
+                <button class="my-5 btn-primary rounded py-2 px-4">Añadir Lista</button>
+            </div>
+
+        </aside>
         <main class="listToDo border col-9">
             <div class="qwerty border">
 

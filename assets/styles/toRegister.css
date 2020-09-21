@@ -1,0 +1,13 @@
+.formRegister, .formLogIn{
+    border-radius: 1em;
+}
+
+.input{
+    padding: 1em;
+    color: #23272B;
+    
+}
+
+.help{
+    height: 1em;
+}

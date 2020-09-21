@@ -4,6 +4,16 @@
     height: 100vh;
 }
 
+.aside .userInfo .userIcon{
+    width: 80%;
+    
+}
+
+.aside .userInfo .userName{
+    color: #70B8FF;
+    font-size: 2em;
+}
+
 .input{
     min-height: 7em;
     font-size: 1.2em;

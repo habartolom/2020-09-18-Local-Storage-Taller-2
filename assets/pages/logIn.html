@@ -7,20 +7,15 @@
     <title>Registro</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/styles/toRegister.css">
+    <link rel="stylesheet" href="../styles/toRegister.css">
 </head>
 
 <body>
     <div class="container d-flex flex-column align-items-center">
         <div class="m-5">
-            <h1 text-dark>Regístrate</h1>
+            <h1 text-dark>Iniciar sesión</h1>
         </div>
-        <form class="formRegister border border-dark bg-light pt-5 px-5 pb-4 col-4" id="formRegister">
-            <div class="form-group">
-                <label for="inputName">Nombre</label>
-                <input type="text" class="form-control input" id="inputName">
-                <small id="nameHelp" class="help form-text text-primary ml-3"></small>
-            </div>
+        <form class="formLogIn border border-dark bg-light pt-5 px-5 pb-4 col-4" id="formLogIn">
             <div class="form-group">
                 <label for="inputEmail">Correo electrónico</label>
                 <input type="email" class="form-control input" id="inputEmail">
@@ -28,11 +23,11 @@
             </div>
             <div class="form-group">
                 <label for="inputPassword">Password</label>
-                <input type="password" class="form-control input" id="inputPassword" aria-describedby="passHelp" minlength="8">
+                <input type="password" class="form-control input" id="inputPassword" aria-describedby="passHelp">
                 <small id="passHelp" class="help form-text text-primary ml-3"></small>
             </div>
             <div class="d-flex justify-content-center pt-3">
-                <button type="submit" class="btn btn-dark">Registrarme</button>
+                <button type="submit" class="btn btn-dark">Iniciar Sesión</button>
             </div>
         </form>
     </div>
@@ -45,7 +40,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    <script src="./assets/scripts/toRegister.js"></script>
+    <script src="./assets/scripts/logIn.js"></script>
 </body>
 
 </html>
